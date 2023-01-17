@@ -14,15 +14,13 @@ import { mapState } from 'vuex'
 import SidebarNav from './SidebarNav.vue'
 import SidebarContainer from './SidebarContainer.vue'
 import SidebarItems from './SidebarItems.vue'
-import CarbonAds from './CarbonAds.vue'
 
 export default {
   name: 'Sidebar',
   components: {
     SidebarNav,
     SidebarContainer,
-    SidebarItems,
-    CarbonAds
+    SidebarItems
   },
   computed: {
     ...mapState(['activeTab'])
